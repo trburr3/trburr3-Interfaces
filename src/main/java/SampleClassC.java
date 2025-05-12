@@ -31,7 +31,7 @@ public class SampleClassC implements Comparable<SampleClassC>{
             return -1;
         }else if(this.val > other.val){
             return 1;
-        }else{
+        }else {
             return 0;
         }
     }
